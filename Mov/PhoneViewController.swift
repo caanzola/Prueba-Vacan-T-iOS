@@ -10,14 +10,44 @@ import UIKit
 
 class PhoneViewController: UIViewController, UITextFieldDelegate {
 
+    /*
+    Continue button
+    */
     @IBOutlet weak var button: UIButton!
     
+    /*
+    Phone number text field
+    */
     @IBOutlet weak var phoneTxt: UITextField!
+    
+    /*
+    Names data from segue
+    */
     var nombres: String!
+    
+    /*
+    Last names data from segue
+    */
     var apellidos: String!
+    
+    /*
+    email data from segue
+    */
     var correo: String!
+    
+    /*
+    Password data from segue
+    */
     var password: String!
+    
+    /*
+    Id number data from segue
+    */
     var idNum: String!
+    
+    /*
+    Id type data from segue
+    */
     var typeId: String!
     
     override func viewDidLoad() {

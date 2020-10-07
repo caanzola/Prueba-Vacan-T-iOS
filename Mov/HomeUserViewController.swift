@@ -62,10 +62,21 @@ class HomeUserViewController: UIViewController, UITableViewDataSource, UITableVi
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tabla.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! EstablecimientoTableViewCell
         if establecimientos.count > 0 {
+            var content = "Establecimiento número "
+            content+=self.establecimientos[indexPath.row].idestablecimiento!
+            content+=" \nNombre:"+self.establecimientos[indexPath.row].nombre!
+            content+=" \nRazon social:"+(self.establecimientos[indexPath.row].razonsocial ?? "") ?? ""
+            content+=" \nCiudad: "+(self.establecimientos[indexPath.row].ciudadestablecimiento ?? "") ?? ""
+            content+=" \nDirección: "+(self.establecimientos[indexPath.row].direccion ?? "") ?? ""
             
-                cell.nameLbl?.text = self.establecimientos[indexPath.row].nombre
-        }
+            cell.nameLbl?.text = content
+            }
+                
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 150.0
     }
     
     struct Response: Decodable {

@@ -275,27 +275,27 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="477"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="86" id="a7k-ns-XZy" customClass="EstablecimientoTableViewCell" customModule="Mov">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="86"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="231" id="a7k-ns-XZy" customClass="EstablecimientoTableViewCell" customModule="Mov">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="231"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="a7k-ns-XZy" id="dj3-Nk-17a">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="86"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="231"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S0c-Qv-qrr">
-                                                    <rect key="frame" x="71.5" y="18.5" width="177" height="49"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S0c-Qv-qrr">
+                                                    <rect key="frame" x="15" y="33" width="290" height="163"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="177" id="E4Y-uI-lqh"/>
-                                                        <constraint firstAttribute="width" secondItem="S0c-Qv-qrr" secondAttribute="height" multiplier="177:49" id="dP6-0H-37f"/>
+                                                        <constraint firstAttribute="width" constant="290" id="E4Y-uI-lqh"/>
+                                                        <constraint firstAttribute="width" secondItem="S0c-Qv-qrr" secondAttribute="height" multiplier="177:49" constant="-298.79591836734687" id="dP6-0H-37f"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="S0c-Qv-qrr" firstAttribute="centerX" secondItem="dj3-Nk-17a" secondAttribute="centerX" id="0Qp-g6-Kfg"/>
-                                                <constraint firstItem="S0c-Qv-qrr" firstAttribute="centerY" secondItem="dj3-Nk-17a" secondAttribute="centerY" id="8PK-PP-IXv"/>
+                                                <constraint firstItem="S0c-Qv-qrr" firstAttribute="centerY" secondItem="dj3-Nk-17a" secondAttribute="centerY" constant="-1" id="8PK-PP-IXv"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
