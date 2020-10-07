@@ -10,16 +10,49 @@ import UIKit
 
 class IdRegisteViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource,  UITextFieldDelegate  {
     
-
+    /*
+    Picker view for ID document type
+    */
     @IBOutlet weak var picker: UIPickerView!
+    
+    /*
+    Text field for names
+    */
     @IBOutlet weak var idNumberTxt: UITextField!
+    
+    /*
+    Continue button
+    */
     @IBOutlet weak var button: UIButton!
+    
+    /*
+    Data for picker id document type
+    */
     var pickerData = ["C.C", "T.I", "C.E"]
     
+    /*
+    Names data by segue
+    */
     var nombres: String!
+    
+    /*
+    Last names data by segue
+    */
     var apellidos: String!
+    
+    /*
+    Email data by segue
+    */
     var correo: String!
+    
+    /*
+    Password data by segue
+    */
     var password: String!
+    
+    /*
+    Type of document id data by segue
+    */
     var typeId: String!
     
     override func viewDidLoad() {

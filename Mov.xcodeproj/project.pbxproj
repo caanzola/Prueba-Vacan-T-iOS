@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0445934D252D276F00D91B62 /* PhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445934C252D276F00D91B62 /* PhoneViewController.swift */; };
+		04459351252D4DA500D91B62 /* EstablecimientoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04459350252D4DA500D91B62 /* EstablecimientoTableViewCell.swift */; };
 		049178F0252CDC4600D8C35F /* HomeUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049178EF252CDC4600D8C35F /* HomeUserViewController.swift */; };
 		049178F2252CECC300D8C35F /* IdRegisteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049178F1252CECC300D8C35F /* IdRegisteViewController.swift */; };
 		04FAC8582325F97400EEA777 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAC8572325F97400EEA777 /* AppDelegate.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		0445934C252D276F00D91B62 /* PhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewController.swift; sourceTree = "<group>"; };
+		04459350252D4DA500D91B62 /* EstablecimientoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstablecimientoTableViewCell.swift; sourceTree = "<group>"; };
 		049178EF252CDC4600D8C35F /* HomeUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUserViewController.swift; sourceTree = "<group>"; };
 		049178F1252CECC300D8C35F /* IdRegisteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdRegisteViewController.swift; sourceTree = "<group>"; };
 		04FAC8542325F97200EEA777 /* Mov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mov.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +114,7 @@
 				049178EF252CDC4600D8C35F /* HomeUserViewController.swift */,
 				049178F1252CECC300D8C35F /* IdRegisteViewController.swift */,
 				0445934C252D276F00D91B62 /* PhoneViewController.swift */,
+				04459350252D4DA500D91B62 /* EstablecimientoTableViewCell.swift */,
 			);
 			path = Mov;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04459351252D4DA500D91B62 /* EstablecimientoTableViewCell.swift in Sources */,
 				04FAC85A2325F97500EEA777 /* ViewController.swift in Sources */,
 				0445934D252D276F00D91B62 /* PhoneViewController.swift in Sources */,
 				04FAC8582325F97400EEA777 /* AppDelegate.swift in Sources */,

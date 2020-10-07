@@ -10,10 +10,29 @@ import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
 
+    /*
+     Continue button
+     */
     @IBOutlet weak var buton: UIButton!
+    
+    /*
+    Text field for names
+    */
     @IBOutlet weak var nombresTxt: UITextField!
+    
+    /*
+    Text field for last names
+    */
     @IBOutlet weak var apellidosTxt: UITextField!
+    
+    /*
+    Text field for email
+    */
     @IBOutlet weak var correoTxt: UITextField!
+    
+    /*
+    Text field for password
+    */
     @IBOutlet weak var passwordTxt: UITextField!
     
     override func viewDidLoad() {
