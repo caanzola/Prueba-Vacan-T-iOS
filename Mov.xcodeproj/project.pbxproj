@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0445934D252D276F00D91B62 /* PhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445934C252D276F00D91B62 /* PhoneViewController.swift */; };
+		049178F0252CDC4600D8C35F /* HomeUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049178EF252CDC4600D8C35F /* HomeUserViewController.swift */; };
+		049178F2252CECC300D8C35F /* IdRegisteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049178F1252CECC300D8C35F /* IdRegisteViewController.swift */; };
 		04FAC8582325F97400EEA777 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAC8572325F97400EEA777 /* AppDelegate.swift */; };
 		04FAC85A2325F97500EEA777 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAC8592325F97500EEA777 /* ViewController.swift */; };
 		04FAC85D2325F97600EEA777 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FAC85B2325F97600EEA777 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0445934C252D276F00D91B62 /* PhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewController.swift; sourceTree = "<group>"; };
+		049178EF252CDC4600D8C35F /* HomeUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUserViewController.swift; sourceTree = "<group>"; };
+		049178F1252CECC300D8C35F /* IdRegisteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdRegisteViewController.swift; sourceTree = "<group>"; };
 		04FAC8542325F97200EEA777 /* Mov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mov.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FAC8572325F97400EEA777 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04FAC8592325F97500EEA777 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +109,9 @@
 				04FAC85E2325FA0800EEA777 /* Assets.xcassets */,
 				04FAC8602325FA0800EEA777 /* LaunchScreen.storyboard */,
 				04FAC8632325FA0800EEA777 /* Info.plist */,
+				049178EF252CDC4600D8C35F /* HomeUserViewController.swift */,
+				049178F1252CECC300D8C35F /* IdRegisteViewController.swift */,
+				0445934C252D276F00D91B62 /* PhoneViewController.swift */,
 			);
 			path = Mov;
 			sourceTree = "<group>";
@@ -257,7 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04FAC85A2325F97500EEA777 /* ViewController.swift in Sources */,
+				0445934D252D276F00D91B62 /* PhoneViewController.swift in Sources */,
 				04FAC8582325F97400EEA777 /* AppDelegate.swift in Sources */,
+				049178F0252CDC4600D8C35F /* HomeUserViewController.swift in Sources */,
+				049178F2252CECC300D8C35F /* IdRegisteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
